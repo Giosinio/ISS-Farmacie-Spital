@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView layoutX="65.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" />
+      <Text layoutX="93.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Medicamente">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="292.0" layoutY="360.0" mnemonicParsing="false" text="Adaugă medicament" />
+      <Button layoutX="454.0" layoutY="360.0" mnemonicParsing="false" text="Șterge medicament" />
+   </children>
+</AnchorPane>
